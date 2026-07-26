@@ -35,7 +35,7 @@ export default function OurStorySection() {
               <h4 className="text-on-surface text-sm uppercase tracking-widest font-bold mb-2">Events Cpatured</h4>
             </div>
             <div>
-              <h3 className="text-primary font-display-md text-2xl mb-1">5</h3>
+              <h3 className="text-primary font-display-md text-2xl mb-1">5+</h3>
               <h4 className="text-on-surface text-sm uppercase tracking-widest font-bold mb-2">Years of Experience</h4>
             </div>
           </div>
