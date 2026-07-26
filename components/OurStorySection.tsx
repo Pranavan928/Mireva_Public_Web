@@ -22,7 +22,7 @@ export default function OurStorySection() {
           <h2 className="font-display-lg text-headline-lg text-on-surface leading-tight">
             The Art of Timeless Storytelling
           </h2>
-          <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          <p className="font-body-lg text-body-lg text-on-surface-variant leading-relaxed text-justify">
             MIREVA is a luxury photography studio inspired by the
             hidden beauty of the Hill Country mist. With a passion for storytelling,
             we capture authentic emotions and unforgettable moments through creativity,
