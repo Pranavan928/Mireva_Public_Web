@@ -136,7 +136,7 @@ export default function ServicesSection() {
                 key={index}
                 className="absolute w-[80%] max-w-[280px] cursor-pointer group"
                 initial={false}
-                animate={{ x: isCenter ? "0%" : isLeft ? "-105%" : isRight ? "105%" : diff < 0 ? "-200%" : "200%", scale, opacity, zIndex }}
+                animate={{ x, scale, opacity, zIndex }}
                 transition={{ duration: 0.6, ease: [0.32, 0.72, 0, 1] }}
                 style={{ pointerEvents }}
                 onClick={() => setActiveIndex(index)}
