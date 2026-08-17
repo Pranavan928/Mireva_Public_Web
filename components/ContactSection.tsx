@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from "framer-motion";
 
@@ -72,11 +72,11 @@ export default function ContactSection() {
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
         >
           <h3 className="font-display-lg text-4xl text-on-surface mb-6">
-            Let's start a conversation.
+            Let&apos;s start a conversation.
           </h3>
           <p className="text-on-surface-variant mb-12 leading-relaxed">
             We respond to all inquiries within 24 hours. Tell us about your day and
-            we'll take it from there.
+            we&apos;ll take it from there.
           </p>
 
           <div className="flex flex-col gap-4 mb-12 relative z-10">

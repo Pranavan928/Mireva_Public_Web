@@ -127,8 +127,6 @@ export default function ServicesSection() {
             }
 
             // On mobile, keep side items hidden or slightly peeking
-            const mobileX = isCenter ? "0%" : isLeft ? "-90%" : isRight ? "90%" : x;
-            const finalX = typeof window !== 'undefined' && window.innerWidth < 768 ? mobileX : x;
 
             // Fix SSR hydration mismatch on x calculation by relying on CSS media queries or simple percentage based layouts
             // We use simple % to let browser do the work.
